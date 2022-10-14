@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/pen-logo-isolated-line-art-fire-design-74189737.jpg">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <button id="dark-light" class="btn btn-dark" ><i class="fa-solid fa-lightbulb yellow" id="bulb" ></i></button>
+    <div class="container">
+        <div class="alert alert-info" role="alert" id="cont1">
+            <h1 class="display-5 text-center" id="display1"> Wizard's Cup<i class="fa-brands fa-wizards-of-the-coast"></i></h1>
+        </div>
+    </div>
+
+    <!-- Show Modal Button -->
+
+    <div class="container bg-info">
+        <form>
+            <div class="form-group">
+
+                <div class="container alert alert-danger data-error" role="alert" id="validationMessage">
+                    <button type="button" class="close vldshn" id="closeVlaidationMessageBtn" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <label for="exampleInputTask1">Input your name</label>
+                <input type="text" class="form-control" id="input-area" placeholder="ex.: Ali Mindal">
+
+                <label for="exampleInputTask1">Input date of birth</label>
+                <input type="date" class="form-control" id="input-area">
+
+                <label for="exampleInputTask1">Your Picture</label>
+                <input type="url" class="form-control" id="input-area" placeholder="Insert your image url">
+
+                <button type="submit" class="btn btn-primary" id="click-create">Submit the request</button>
+                <small id="emailHelp" class="form-text text-muted">Ready to vanquish ... conqure the world.</small>
+
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+        <h1 class="display-5 text-center"  id="display2">Gamerz List <i class="fa-solid fa-gamepad"></i></h1>
+    </div>
+
+    <!-- No task added alert -->
+
+    <div class="container alert alert-danger" role="alert" id="notasks">
+        No one is there yet be the first !!!
+    </div>
+
+    <!-- New task area with the default task -->
+
+    <div class="container" id="newtaskarea">
+        <div class="alert alert-warning checked" role="alert">
+            Ali Mindal<button type="button" class="close" id="deleteTask" aria-label="Close">
+                <span aria-hidden="true" class="deleteit">&times;</span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <!-- Footerrrrrrrrrrrrr -->
+
+
+    <section class="contact-area" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="contact-content text-center">
+
+                        <div class="contact-social">
+                            <ul>
+                                <li><a class="hover-target" href="https://github.com/AliMindal" target="_blank"><i class="fab fa-github"></i></a></li>
+                                <li><a class="hover-target" href="https://www.linkedin.com/in/ali-osman-987624224/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+      
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== 1.9 Contact Area End ====================-->
+    <!-- =============== 1.9 Footer Area Start ====================-->
+    <footer>
+        <p>Copyright &copy; 2022 All Rights Reserved <a class="hover-target" href="https://www.linkedin.com/in/ali-osman-987624224/" target="_blank"><i class="fab fa-github"> Ali Mindal.</i></a></p>
+    </footer>
+
+
+
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
